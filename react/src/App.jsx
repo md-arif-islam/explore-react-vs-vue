@@ -1,7 +1,16 @@
 import "./App.css";
 
 function App() {
-  return <>Hello from APP</>;
+  const user = {
+    name: "Arif",
+    age: 20,
+  };
+
+  return (
+    <>
+      <pre>{JSON.stringify(user)}</pre>
+    </>
+  );
 }
 
 export default App;
